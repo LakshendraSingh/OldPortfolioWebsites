@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lakshendra Singh</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    
+  </head>
+  <body style="background-color: beige;"></bodystyle>>
+    <nav id="desktop-nav">
+      <div class="logo">Lakshendra Singh</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Lakshendra Singh</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Lakshendra Singh</h1>
+        <p class="section__text__p2">Engineering Student</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Resume.pdf')"
+          >
+            Download CV
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/lakshendra-singh/', '_blank');"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/LakshendraSingh', '_blank');"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Programming Since age 11 <br />Engineer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>
+                Bachelors of Technology in Computer Science and Engineering
+                (Pursuing) <br />
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Motivated and self-driven Computer Science & Engineering student
+              at SRM University with a strong foundation in programming, AI,
+              cybersecurity, and embedded systems. Passionate about solving
+              complex problems, from building a personal LAN network and neural
+              network at an early age to working on SRMSAT-2. Proficient in AI,
+              firewall development, and ARMv7 Assembly, with a keen interest in
+              quantum computing. Seeking opportunities to apply technical
+              expertise in a challenging environment.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+ <section id="experience">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Experience</h1>
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="experience-sub-title">Skills</h2>
+        <div class="article-container">
+          <article aria-label="HTML experience">
+            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
+            <div>
+              <h3>HTML</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article aria-label="CSS experience">
+            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
+            <div>
+              <h3>CSS</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article aria-label="Python experience">
+            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
+            <div>
+              <h3>Python</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article aria-label="JavaScript experience">
+            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
+            <div>
+              <h3>JavaScript</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article aria-label="Java experience">
+            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
+            <div>
+              <h3>Java</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article aria-label="C/C++ experience">
+            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
+            <div>
+              <h3>C/C++</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article aria-label="ARMv7 Assembly experience">
+            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
+            <div>
+              <h3>ARMv7 Assembly</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article aria-label="Swift experience">
+            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
+            <div>
+              <h3>Swift</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+           <article aria-label="SQL experience">
+            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
+            <div>
+              <h3>SQL</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="details-container">
+        <h2 class="experience-sub-title">Work Experience</h2>
+        <div class="article-container">
+          <article aria-label=" SRMSAT experience">
+            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
+            <div>
+              <h3>SRMSAT Space Systems Labarotory</h3>
+              <p>Onboard Computer Engineer</p>
+              <div>August 2024 - Present</div>
+            </div>
+          </article>
+          <article aria-label="Fiverr experience">
+            <img src="./assets/checkmark.png" alt="Checkmark icon" class="icon" />
+            <div>
+              <h3>Fiverr</h3>
+              <p>Translator and Software Engineer</p>
+              <div>March 2025 - Present</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Certifications, Courses and Accolades</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Harvard University's CS50x</h3>
+                  <p>Certification</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Nvidia Build a Brain in 10 Minutes</h3>
+                  <p>Course</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="details-container">
+            <h2 class="experience-sub-title">References</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Dr. M. Loganathan</h3>
+                  <p>Retd. ISRO Sr. Scientist,
+                     Professor of Practice 
+                     Dept. E & I 
+                     SRMIST
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">IDPS System With Firewall And Kernal level Integration</h2>
+              <br>
+              <br>
+              <br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/LakshendraSingh/SkyFireWall-MkI', '_blank');"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Patient Monitoring System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/LakshendraSingh/Patient-Health-Monitoring-System', '_blank');"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Fashion MNIST AI Classifier</h2>
+            <br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/LakshendraSingh/Machine_Learning_Based_Clothing_Image_Classifer', '_blank');"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:lakshendra.singh@outlook.com"
+              >lakshendra.singh@outlook.com</a>
+          </p>
+        </div>
+        <div class="contact-info-container"
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
+            <p><a href="https://orcid.org/0009-0006-6222-3615"  target="_blank">OrcidId</a></p>
+            <p><a href="https://www.hackerrank.com/profile/SkyNetIsLive"  target="_blank"> Hackerrank</a></p>
+            <p><a href="https://leetcode.com/u/CyberdyneSystemsModel101_T-800/"  target="_blank">Leetcode</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
